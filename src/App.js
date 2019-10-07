@@ -7,12 +7,14 @@ function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
   const [hScore, setHScore] = useState(0);
   const [aScore, setAScore] = useState(0);
+ 
 
   // console.log("this is a test", useState(0));
   // console.log(hScore);
   // console.log(aScore);
   // console.log(setHScore);
   // console.log(setAScore);
+  // console.log(quarter);
 
   return (
     <div className="container">
@@ -40,7 +42,7 @@ function App() {
           <button className="homeButtons__fieldGoal" onClick= {() => setHScore(hScore + 3)}>Home Field Goal</button>
         </div>
         <div className="awayButtons">
-          <button className="awayButtons__touchdown" onClick= {() => setAScore(aScore + 6) }>Away Touchdown</button>
+          <button className="awayButtons__touchdown" onClick= {() => setAScore(aScore + 6)}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick= {() => setAScore(aScore + 3)}>Away Field Goal</button>
         </div>
       </section>
@@ -49,3 +51,4 @@ function App() {
 }
 
 export default App;
+
