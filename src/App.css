@@ -118,7 +118,9 @@
 .awayButtons__touchdown,
 .awayButtons__fieldGoal,
 .quarter_add,
-.quarter_reset {
+.quarter_reset,
+.resethScore,
+.resetaScore {
   margin: 1rem;
   border-radius: 4px;
 }
